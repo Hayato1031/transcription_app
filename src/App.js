@@ -31,7 +31,7 @@ export default function App() {
   const [savedTranscriptions, setSavedTranscriptions] = useState([]);
   const [elapsedTime, setElapsedTime] = useState(0);
   const [darkMode, setDarkMode] = useState(false);
-  const [demoMode, setDemoMode] = useState(true); // Use state instead of ref for demo mode
+  const [demoMode, setDemoMode] = useState(false); // Use state instead of ref for demo mode
   const [appEnabled, setAppEnabled] = useState(true); // Kill switch for version management
   const [isLoading, setIsLoading] = useState(false); // Loading state
   const [loadingMessage, setLoadingMessage] = useState(""); // Loading message

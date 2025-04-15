@@ -2,13 +2,13 @@
   "name": "transcription_app",
   "version": "1.0.0",
   "description": "Voice Note は ElevenLabs API を使用した音声文字起こしアプリです。このアプリを使用すると、音声を録音し、自動的にテキストに変換することができます。",
-  "main": "src/index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "cd src && npm start",
-    "android": "cd src && npm run android",
-    "ios": "cd src && npm run ios",
-    "web": "cd src && npm run web",
-    "test": "cd src && npm test"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
